@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MedyaUygulamaları</string>
+    <string name="fotograf_video">Fotoğraf Video</string>
+    <string name="ses_kayit">Ses Kayıt</string>
+    <string name="haritaya_git">Haritaya Git</string>
+    <string name="webegit">Web Sayfasına Git</string>
+    <string name="smsgonder">Sms Gönder</string>
+    <string name="aramayap">Arama Yap</string>
+    <string name="fotograf_cek">Fotoğraf Çek</string>
+    <string name="video_cek">Video Çek</string>
+    <string name="butontext">İstanbula Git</string>
+
+</resources>

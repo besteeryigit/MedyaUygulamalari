@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginözelligi"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/butonStili"
+            android:layout_weight="1"
+            android:id="@+id/fotografvideo"
+            android:layout_width="match_parent"
+            android:text="@string/fotograf_video"
+            android:onClick="fotografVideoCek"
+            android:layout_height="@dimen/buton_yuksekligi"
+            android:background="@color/yesil"/>
+
+        <Button
+            style="@style/butonStili"
+            android:layout_weight="1"
+            android:id="@+id/seskayit"
+            android:text="@string/ses_kayit"
+            android:onClick="sesKayit"
+            android:layout_width="match_parent"
+            android:background="@color/mavi"
+            android:layout_height="@dimen/buton_yuksekligi" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginözelligi"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/butonStili"
+            android:layout_weight="1"
+            android:text="@string/haritaya_git"
+            android:onClick="haritayaGit"
+            android:id="@+id/haritayaGit"
+            android:background="@color/mor"
+            android:layout_width="match_parent"
+
+            android:layout_height="@dimen/buton_yuksekligi" />
+
+        <Button
+            style="@style/butonStili"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:text="@string/webegit"
+            android:onClick="webeGit"
+            android:id="@+id/webegit"
+            android:background="@color/turuncu"
+            android:layout_height="@dimen/buton_yuksekligi" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginözelligi"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/butonStili"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:text="@string/smsgonder"
+            android:background="@color/koyuyesil"
+            android:onClick="smsGonder"
+            android:id="@+id/smsgonder"
+            android:layout_height="@dimen/buton_yuksekligi" />
+
+        <Button
+            style="@style/butonStili"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:onClick="aramaYap"
+            android:text="@string/aramayap"
+            android:id="@+id/aramayap"
+            android:background="@color/kırmızı"
+            android:layout_height="@dimen/buton_yuksekligi" />
+    </LinearLayout>
+
+
+</LinearLayout>
